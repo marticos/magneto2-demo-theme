@@ -1,0 +1,27 @@
+{
+    "name": "marco/demotheme",
+    "description": "A custom theme extending Magento Luma theme",
+    "type": "magento2-theme",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "~7.3.0||~7.4.0||~8.0.0",
+        "magento/theme-frontend-luma": "*",
+        "marco/module-demotheme": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "frontend/Marco/demotheme"
+            ]
+        ]
+    }
+}
