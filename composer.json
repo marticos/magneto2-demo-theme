@@ -1,5 +1,5 @@
 {
-    "name": "marco/demotheme",
+    "name": "marticos/demotheme",
     "description": "A custom theme extending Magento Luma theme",
     "type": "magento2-theme",
     "version": "1.0.0",
@@ -20,7 +20,7 @@
         "map": [
             [
                 "*",
-                "frontend/Marco/demotheme"
+                "frontend/Marticos/demotheme"
             ]
         ]
     }
